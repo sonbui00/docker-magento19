@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - /home/sonbv/Projects/fr/nito/nnaws/:/var/www/html/
+  ports:
+    - 80:80
+  net: "host"
